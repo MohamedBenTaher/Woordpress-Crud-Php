@@ -36,6 +36,7 @@ header('Location: index.php');
 </head>
 <body>
 <form action="<?=$_SERVER['PHP_SELF'];?>" method="POST">
+<h3 class="h3">Edit Customer</h3>
 <div class="form-group">
                 <label for="name">Firstname</label>
                 <input type="text" class="form-control" name="firstname" placeholder="Firstame" value="<?php echo $customer['first_name']; ?>">

@@ -27,6 +27,7 @@ header('Location: index.php');
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+<h3 class="h3">Add Product</h3>
 <form action="<?=$_SERVER['PHP_SELF'];?>" method="POST">
             <div class="form-group">
                 <label for="name">Name</label>
